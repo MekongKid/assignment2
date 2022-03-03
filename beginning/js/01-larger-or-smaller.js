@@ -5,6 +5,7 @@ let num = prompt('Guess a number between 1 and 25');
 if (num === "22") {
     document.write('Correct!');
 } else {
+    (num < "22")
     document.write('Larger.');
 };
 
